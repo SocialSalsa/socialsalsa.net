@@ -1,0 +1,47 @@
+{
+  "name": "socialsalsa.net",
+  "version": "1.0.0",
+  "description": "Social Salsa Website",
+  "main": "app/js/main.js",
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "keywords": [
+      "socialsalsa",
+      "website"
+  ],
+  "author": "Jonathan A. Schweder <jonathan.schweder@bludata.com.br>",
+  "license": "GPL",
+  "devDependencies": {
+    "bower": "^1.6.7",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-flatten": "^0.2.0",
+    "gulp-htmlmin": "^1.2.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sequence": "^0.4.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "imagemin-pngquant": "^4.2.0",
+    "jshint": "^2.8.0",
+    "karma": "^0.13.19",
+    "karma-mocha": "^0.2.1",
+    "karma-phantomjs-launcher": "^0.2.3",
+    "karma-should": "^1.0.0",
+    "main-bower-files": "^2.9.0",
+    "mocha": "^2.3.4",
+    "phantomjs": "^1.9.19",
+    "should": "^8.1.1",
+    "imagemin-optipng": "^4.3.0"
+  }
+}

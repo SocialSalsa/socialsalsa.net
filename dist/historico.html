@@ -1,0 +1,1 @@
+<div><p class="text-center">Histórico</p><ul ng-if="vm.historicos.length"><li ng-repeat="historico in vm.historicos">{{historico.descricao}}</li></ul><div class="col-md-6 col-md-offset-3"><div ng-if="vm.historico.length === 0" class="alert alert-danger">Não há ainda nenhum histórico ainda registrado</div>{{vm.historicos | json}}</div></div>
